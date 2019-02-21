@@ -7,7 +7,7 @@ public class Main {
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("give a number");
-		duration = sc.nextLine().charAt(0);
+		duration = sc.nextInt();
 		if(duration < 0) {
 			throw new BadBadValueException();
 		}
